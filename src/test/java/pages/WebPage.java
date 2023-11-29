@@ -124,10 +124,10 @@ public class WebPage {
         System.out.println("ini adalah page= " + homePage);
 
 //        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        try {
-            Thread.sleep(5000); // Jeda selama 5 detik
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+//        try {
+//            Thread.sleep(5000); // Jeda selama 5 detik
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
         }
 
     }
