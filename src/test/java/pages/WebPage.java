@@ -125,7 +125,7 @@ public class WebPage {
 
 //        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(9));
         try {
-            Thread.sleep(15000); // Jeda selama 5 detik
+            Thread.sleep(5000); // Jeda selama 5 detik
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -151,8 +151,13 @@ public class WebPage {
 
 //    //User Contact Customer Service
     public void userClickContact(){
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.findElement(inputuserClickContact).click();
+
+        try {
+            Thread.sleep(5000); // Jeda selama 5 detik
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
     public void userInputEmail(String ContactEmail){
 //        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -196,6 +201,11 @@ public class WebPage {
         assertEquals("Samsung galaxy s6", listAllPhone.getText());
         System.out.println("ini adalah page= " + listAllPhone);
 
+        try {
+            Thread.sleep(5000); // Jeda selama 5 detik
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 //        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
     }
 
@@ -203,6 +213,11 @@ public class WebPage {
 //    user add item and detail item
     public void userClickItemSelection(){
         driver.findElement(inputuserClickItemSelection).click();
+        try {
+            Thread.sleep(5000); // Jeda selama 5 detik
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     public void userCanGetMoreInformationFromItemSelection(){
