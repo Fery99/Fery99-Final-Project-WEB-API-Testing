@@ -125,7 +125,7 @@ public class WebPage {
 
 //        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(9));
         try {
-            Thread.sleep(10000); // Jeda selama 5 detik
+            Thread.sleep(15000); // Jeda selama 5 detik
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
