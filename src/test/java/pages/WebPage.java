@@ -128,7 +128,7 @@ public class WebPage {
 //            Thread.sleep(5000); // Jeda selama 5 detik
 //        } catch (InterruptedException e) {
 //            e.printStackTrace();
-        }
+//        }
 
     }
 
