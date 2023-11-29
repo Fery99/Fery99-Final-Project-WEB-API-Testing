@@ -187,6 +187,11 @@ public class WebPage {
         assertEquals("Sony vaio i7", listLaptop.getText());
         System.out.println("ini adalah page= " + listLaptop);
 
+        try {
+            Thread.sleep(8000); // Jeda selama 5 detik
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 //        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
     }
 
@@ -202,7 +207,7 @@ public class WebPage {
         System.out.println("ini adalah page= " + listAllPhone);
 
         try {
-            Thread.sleep(7000); // Jeda selama 5 detik
+            Thread.sleep(8000); // Jeda selama 5 detik
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -214,7 +219,7 @@ public class WebPage {
     public void userClickItemSelection(){
         driver.findElement(inputuserClickItemSelection).click();
         try {
-            Thread.sleep(7000); // Jeda selama 5 detik
+            Thread.sleep(8000); // Jeda selama 5 detik
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
