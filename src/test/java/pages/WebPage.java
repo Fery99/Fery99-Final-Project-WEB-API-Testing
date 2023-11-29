@@ -123,12 +123,12 @@ public class WebPage {
         assertEquals("CATEGORIES", homePage.getText());
         System.out.println("ini adalah page= " + homePage);
 
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(9));
-//        try {
-//            Thread.sleep(5000); // Jeda selama 5 detik
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
+//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(9));
+        try {
+            Thread.sleep(10000); // Jeda selama 5 detik
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
     }
 
