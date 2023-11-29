@@ -125,7 +125,7 @@ public class WebPage {
 
 //        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(9));
         try {
-            Thread.sleep(5000); // Jeda selama 5 detik
+            Thread.sleep(15000); // Jeda selama 5 detik
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -154,7 +154,7 @@ public class WebPage {
         driver.findElement(inputuserClickContact).click();
 
         try {
-            Thread.sleep(5000); // Jeda selama 5 detik
+            Thread.sleep(15000); // Jeda selama 5 detik
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -188,7 +188,7 @@ public class WebPage {
         System.out.println("ini adalah page= " + listLaptop);
 
         try {
-            Thread.sleep(5000); // Jeda selama 5 detik
+            Thread.sleep(15000); // Jeda selama 5 detik
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -207,7 +207,7 @@ public class WebPage {
         System.out.println("ini adalah page= " + listAllPhone);
 
         try {
-            Thread.sleep(5000); // Jeda selama 5 detik
+            Thread.sleep(15000); // Jeda selama 5 detik
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -219,7 +219,7 @@ public class WebPage {
     public void userClickItemSelection(){
         driver.findElement(inputuserClickItemSelection).click();
         try {
-            Thread.sleep(5000); // Jeda selama 5 detik
+            Thread.sleep(15000); // Jeda selama 5 detik
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
