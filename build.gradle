@@ -80,7 +80,7 @@ tasks.register('generalTest') {
                     '--plugin', 'pretty',
                     '--plugin', 'html:reports/cucumber-web-report.html',
                     '--glue', 'stepDef',
-//                    '--tags', "@web",
+//            /        '--tags', "@web",
                     'src/test/java/features']
         }
     }
